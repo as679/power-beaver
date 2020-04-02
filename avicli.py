@@ -77,6 +77,11 @@ class AviSession(object):
         response.raise_for_status()
         print(json.dumps(response.json()['results']))
 ​
+    def delete(self, path):
+        params = self.params
+        uuid = self._cmd.pop(0)
+        response = self._api.delete(self._prefix + path + '/' + uuid, headers=self.headers, params=self.params)
+        response.raise_for_status()
 ​
 parser = argparse.ArgumentParser()
 parser.add_argument('--controller', required=True)
