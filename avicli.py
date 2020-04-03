@@ -64,7 +64,7 @@ class AviSession(object):
         for i in response.json()['results']:
             results.append(i)
         while 'next' in response.json():
-            response = self._api.get(response.json()['next'])
+            response = self._api.get(response.json()['next'], headers=self.headers)
             response.raise_for_status()
             for i in response.json()['results']:
                 results.append(i)
