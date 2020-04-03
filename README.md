@@ -1,4 +1,15 @@
 # power-beaver
+```
+       (\.---./)
+        /.-.-.\
+       /| 0_0 |\
+      |_`-(v)-'_|
+      \`-._._.-'/      .-.
+-~-(((.`-\_|_/-'.)))-~' <_
+       `.     .'
+         `._.'
+-----~--~---~~~----~-`.-;~
+```
 ---
 Harness the phenomenal super power of the beaver for your delight and delectation!
 :+1:
